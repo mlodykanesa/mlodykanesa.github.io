@@ -1,0 +1,18 @@
+div {
+    margin-top:15%;
+    font-size: 300;
+    animation: pompa 0.1s infinite;
+}
+@keyframes pompa{
+    0% {margin-top: 13%; color:red;}
+    10% {color:blue;}
+    20% {color:blueviolet;}
+    30% {color:yellow;}
+    40% {color:cyan;}
+    50% {color:green;}
+    60% {color:royalblue;}
+    70% {color: tomato;}
+    80% {color:aquamarine;}
+    90% {color:yellowgreen;}
+    100% {color:teal;}
+}
